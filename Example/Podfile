@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PJAnimationNew_Example' do
+  pod 'PJAnimationNew', :path => '../'
+
+  target 'PJAnimationNew_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
