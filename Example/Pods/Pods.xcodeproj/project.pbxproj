@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148016861D52088400E7336A /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148016851D52088400E7336A /* BlinkingLabel.swift */; };
+		2EFAB10D9521EC4F87C41698FC13CC63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		31FBAB8E01FA63365B0DD597EB56BBC0 /* Pods-PJAnimationNew_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF8166A507EA07774344F64DDC9FE8 /* Pods-PJAnimationNew_Example-dummy.m */; };
+		4935FF77730BAD2ACFEB48F4424C06EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4EC1616A2B1F1DB7297B03444F0F58DD /* PJAnimationNew-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2AC18C68C28482E19BA4C2808F0B477 /* PJAnimationNew-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66ACA93BE783F80EBCB3F7A65546FE95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A44A3BA36D6AC10B51D1169B3A7F22F6 /* PJAnimationNew-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C6823016FF1AE508F4EE992B4A303B /* PJAnimationNew-dummy.m */; };
+		B6F47409914D2F65DC3A67BE2518EAB2 /* Pods-PJAnimationNew_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B410C41113EB3542F05702FF0CB2E2 /* Pods-PJAnimationNew_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8AA0837F5C9531D386EAA46459EAD91 /* Pods-PJAnimationNew_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF682AEFF64D678B21C2F59A05F002E4 /* Pods-PJAnimationNew_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3650D0851619E358B04FB197AE4B7D4 /* Pods-PJAnimationNew_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835E4E0D230B94E55F500847FA9B7FA /* Pods-PJAnimationNew_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC27808E1C512258942680DCDD6A061A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DDAF6D382A9FFD9474F1F108F4EB8DD;
+			remoteInfo = PJAnimationNew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AB3FB8A7DF1D58F073F48732BB4D80 /* Pods-PJAnimationNew_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PJAnimationNew_Example-frameworks.sh"; sourceTree = "<group>"; };
+		148016851D52088400E7336A /* BlinkingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkingLabel.swift; sourceTree = "<group>"; };
+		14A7414978FDFB763240A1421A94B20F /* Pods_PJAnimationNew_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJAnimationNew_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1835E4E0D230B94E55F500847FA9B7FA /* Pods-PJAnimationNew_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PJAnimationNew_Tests-dummy.m"; sourceTree = "<group>"; };
+		2A525AB2AC581C139087F2D5A6D3311E /* Pods-PJAnimationNew_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PJAnimationNew_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3852BFBDEF60B50C9E8ADDACF7D5397C /* PJAnimationNew.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PJAnimationNew.modulemap; sourceTree = "<group>"; };
+		41554AF8F83786001F35017AF36C841C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B410C41113EB3542F05702FF0CB2E2 /* Pods-PJAnimationNew_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PJAnimationNew_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4C2897279134E8874124CC2A137A8E43 /* Pods-PJAnimationNew_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PJAnimationNew_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4EFF8166A507EA07774344F64DDC9FE8 /* Pods-PJAnimationNew_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PJAnimationNew_Example-dummy.m"; sourceTree = "<group>"; };
+		6D85BA1B1D86881FC955B2E9B1ACB09A /* Pods-PJAnimationNew_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PJAnimationNew_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7A6ADA4103A49B8DD933BE4DB7A40961 /* Pods-PJAnimationNew_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PJAnimationNew_Tests-resources.sh"; sourceTree = "<group>"; };
+		7F75C4C9125BC9CF7FAEB0706E88D790 /* Pods-PJAnimationNew_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PJAnimationNew_Tests.modulemap"; sourceTree = "<group>"; };
+		7FC08DEC4B1407A62B591A63DBF1D4FE /* Pods-PJAnimationNew_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PJAnimationNew_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93C6823016FF1AE508F4EE992B4A303B /* PJAnimationNew-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PJAnimationNew-dummy.m"; sourceTree = "<group>"; };
+		944081E5EC2AE4C6E923CFC6A825C174 /* Pods-PJAnimationNew_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PJAnimationNew_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98758A36236018CAFF000290CD8249E2 /* Pods-PJAnimationNew_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PJAnimationNew_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C359B0EC1404F5E3E0CDA0693C0FFAA /* Pods-PJAnimationNew_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PJAnimationNew_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A13EAEB337C0FC282C0CD9FE1C7223C7 /* Pods-PJAnimationNew_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PJAnimationNew_Example-resources.sh"; sourceTree = "<group>"; };
+		B5D2FFEAC9699661130595BCFD017060 /* PJAnimationNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PJAnimationNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72E76DE17CBB13EADBC7F01140B2BB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEA3708CF19F94839336D0BFE37A081 /* Pods-PJAnimationNew_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PJAnimationNew_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF682AEFF64D678B21C2F59A05F002E4 /* Pods-PJAnimationNew_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PJAnimationNew_Example-umbrella.h"; sourceTree = "<group>"; };
+		C9D8D451B514C134240DDE99BE813FBE /* Pods-PJAnimationNew_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PJAnimationNew_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD31DB2DF6D7C6628EA657123016201C /* Pods_PJAnimationNew_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJAnimationNew_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2AC18C68C28482E19BA4C2808F0B477 /* PJAnimationNew-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PJAnimationNew-umbrella.h"; sourceTree = "<group>"; };
+		E138200A1D8B7B0949517E278C0A80DA /* Pods-PJAnimationNew_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PJAnimationNew_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9B2DCAAB66E3A5D3F57546DF354DB18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA3BC0BEAE0B370AEB6D04185EF4EDD /* PJAnimationNew.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PJAnimationNew.xcconfig; sourceTree = "<group>"; };
+		F4304658AE57854BCEA79A8475B9AEAC /* PJAnimationNew-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PJAnimationNew-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DEA7C36C60517F210AA0D60882A6B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66ACA93BE783F80EBCB3F7A65546FE95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B78B064D83C0C526ADCFD1E83600A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFAB10D9521EC4F87C41698FC13CC63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B986C2BB0BD4E9EB2FEACCF84AF304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4935FF77730BAD2ACFEB48F4424C06EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C7F5E41E02BF8DAFBA790C9E8FD502 /* PJAnimationNew */ = {
+			isa = PBXGroup;
+			children = (
+				E4482258632EBC44BB48C2382C3DE69D /* Classes */,
+			);
+			path = PJAnimationNew;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4088E9333CEA9CDBB37CFAAE036C135E /* Pods-PJAnimationNew_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B2DCAAB66E3A5D3F57546DF354DB18 /* Info.plist */,
+				7F75C4C9125BC9CF7FAEB0706E88D790 /* Pods-PJAnimationNew_Tests.modulemap */,
+				E138200A1D8B7B0949517E278C0A80DA /* Pods-PJAnimationNew_Tests-acknowledgements.markdown */,
+				98758A36236018CAFF000290CD8249E2 /* Pods-PJAnimationNew_Tests-acknowledgements.plist */,
+				1835E4E0D230B94E55F500847FA9B7FA /* Pods-PJAnimationNew_Tests-dummy.m */,
+				9C359B0EC1404F5E3E0CDA0693C0FFAA /* Pods-PJAnimationNew_Tests-frameworks.sh */,
+				7A6ADA4103A49B8DD933BE4DB7A40961 /* Pods-PJAnimationNew_Tests-resources.sh */,
+				48B410C41113EB3542F05702FF0CB2E2 /* Pods-PJAnimationNew_Tests-umbrella.h */,
+				C9D8D451B514C134240DDE99BE813FBE /* Pods-PJAnimationNew_Tests.debug.xcconfig */,
+				4C2897279134E8874124CC2A137A8E43 /* Pods-PJAnimationNew_Tests.release.xcconfig */,
+			);
+			name = "Pods-PJAnimationNew_Tests";
+			path = "Target Support Files/Pods-PJAnimationNew_Tests";
+			sourceTree = "<group>";
+		};
+		66C32D67EA24C122F9C6406D5C3600AF /* Pods-PJAnimationNew_Example */ = {
+			isa = PBXGroup;
+			children = (
+				41554AF8F83786001F35017AF36C841C /* Info.plist */,
+				7FC08DEC4B1407A62B591A63DBF1D4FE /* Pods-PJAnimationNew_Example.modulemap */,
+				944081E5EC2AE4C6E923CFC6A825C174 /* Pods-PJAnimationNew_Example-acknowledgements.markdown */,
+				2A525AB2AC581C139087F2D5A6D3311E /* Pods-PJAnimationNew_Example-acknowledgements.plist */,
+				4EFF8166A507EA07774344F64DDC9FE8 /* Pods-PJAnimationNew_Example-dummy.m */,
+				04AB3FB8A7DF1D58F073F48732BB4D80 /* Pods-PJAnimationNew_Example-frameworks.sh */,
+				A13EAEB337C0FC282C0CD9FE1C7223C7 /* Pods-PJAnimationNew_Example-resources.sh */,
+				BF682AEFF64D678B21C2F59A05F002E4 /* Pods-PJAnimationNew_Example-umbrella.h */,
+				6D85BA1B1D86881FC955B2E9B1ACB09A /* Pods-PJAnimationNew_Example.debug.xcconfig */,
+				BDEA3708CF19F94839336D0BFE37A081 /* Pods-PJAnimationNew_Example.release.xcconfig */,
+			);
+			name = "Pods-PJAnimationNew_Example";
+			path = "Target Support Files/Pods-PJAnimationNew_Example";
+			sourceTree = "<group>";
+		};
+		7679373A2AAADB90A567D8282910D021 /* PJAnimationNew */ = {
+			isa = PBXGroup;
+			children = (
+				24C7F5E41E02BF8DAFBA790C9E8FD502 /* PJAnimationNew */,
+				AFFD6433335DCA93A3D7F381986DBB37 /* Support Files */,
+			);
+			name = PJAnimationNew;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FFFB6259CE2F9362847BA061C9130E75 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8A426E2F776A83AD81E0DD6FF9D7D192 /* Products */,
+				8597F106C96E88376C8DB22D14127AD2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8597F106C96E88376C8DB22D14127AD2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66C32D67EA24C122F9C6406D5C3600AF /* Pods-PJAnimationNew_Example */,
+				4088E9333CEA9CDBB37CFAAE036C135E /* Pods-PJAnimationNew_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8A426E2F776A83AD81E0DD6FF9D7D192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D2FFEAC9699661130595BCFD017060 /* PJAnimationNew.framework */,
+				14A7414978FDFB763240A1421A94B20F /* Pods_PJAnimationNew_Example.framework */,
+				CD31DB2DF6D7C6628EA657123016201C /* Pods_PJAnimationNew_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFFD6433335DCA93A3D7F381986DBB37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72E76DE17CBB13EADBC7F01140B2BB5 /* Info.plist */,
+				3852BFBDEF60B50C9E8ADDACF7D5397C /* PJAnimationNew.modulemap */,
+				EAA3BC0BEAE0B370AEB6D04185EF4EDD /* PJAnimationNew.xcconfig */,
+				93C6823016FF1AE508F4EE992B4A303B /* PJAnimationNew-dummy.m */,
+				F4304658AE57854BCEA79A8475B9AEAC /* PJAnimationNew-prefix.pch */,
+				D2AC18C68C28482E19BA4C2808F0B477 /* PJAnimationNew-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PJAnimationNew";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4482258632EBC44BB48C2382C3DE69D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				148016851D52088400E7336A /* BlinkingLabel.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FFFB6259CE2F9362847BA061C9130E75 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7679373A2AAADB90A567D8282910D021 /* PJAnimationNew */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25AA26086207403A5134F7972B9A1726 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC1616A2B1F1DB7297B03444F0F58DD /* PJAnimationNew-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C3B0193D2FD642D787E9879E25D3E75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AA0837F5C9531D386EAA46459EAD91 /* Pods-PJAnimationNew_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDDFA2426F322FC4EFE7AC9FF8D1930 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F47409914D2F65DC3A67BE2518EAB2 /* Pods-PJAnimationNew_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DDAF6D382A9FFD9474F1F108F4EB8DD /* PJAnimationNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D0301762E29C9AFE5BBF14D0A11081 /* Build configuration list for PBXNativeTarget "PJAnimationNew" */;
+			buildPhases = (
+				530D9ED9E4E8917079928E659070C86A /* Sources */,
+				A2B986C2BB0BD4E9EB2FEACCF84AF304 /* Frameworks */,
+				25AA26086207403A5134F7972B9A1726 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PJAnimationNew;
+			productName = PJAnimationNew;
+			productReference = B5D2FFEAC9699661130595BCFD017060 /* PJAnimationNew.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED4599CEF7F5A5B7A8584B6402F36CC3 /* Pods-PJAnimationNew_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253EEFBE4D1075C6CCD2101E623DFE89 /* Build configuration list for PBXNativeTarget "Pods-PJAnimationNew_Tests" */;
+			buildPhases = (
+				12A1E6621DE7CA1BC75FB95DAAC4D1FF /* Sources */,
+				69B78B064D83C0C526ADCFD1E83600A8 /* Frameworks */,
+				8FDDFA2426F322FC4EFE7AC9FF8D1930 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PJAnimationNew_Tests";
+			productName = "Pods-PJAnimationNew_Tests";
+			productReference = CD31DB2DF6D7C6628EA657123016201C /* Pods_PJAnimationNew_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F09378AEFC42F0A98C0B56C4F5CD23AA /* Pods-PJAnimationNew_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029BAC6CB372A9C4CEFE2237911E3D1B /* Build configuration list for PBXNativeTarget "Pods-PJAnimationNew_Example" */;
+			buildPhases = (
+				80E4E963AE819871E12B5B67F1C330EA /* Sources */,
+				2DEA7C36C60517F210AA0D60882A6B98 /* Frameworks */,
+				2C3B0193D2FD642D787E9879E25D3E75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2BEAC52580C916B8685F763FF4A651 /* PBXTargetDependency */,
+			);
+			name = "Pods-PJAnimationNew_Example";
+			productName = "Pods-PJAnimationNew_Example";
+			productReference = 14A7414978FDFB763240A1421A94B20F /* Pods_PJAnimationNew_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8A426E2F776A83AD81E0DD6FF9D7D192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DDAF6D382A9FFD9474F1F108F4EB8DD /* PJAnimationNew */,
+				F09378AEFC42F0A98C0B56C4F5CD23AA /* Pods-PJAnimationNew_Example */,
+				ED4599CEF7F5A5B7A8584B6402F36CC3 /* Pods-PJAnimationNew_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12A1E6621DE7CA1BC75FB95DAAC4D1FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3650D0851619E358B04FB197AE4B7D4 /* Pods-PJAnimationNew_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530D9ED9E4E8917079928E659070C86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44A3BA36D6AC10B51D1169B3A7F22F6 /* PJAnimationNew-dummy.m in Sources */,
+				148016861D52088400E7336A /* BlinkingLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E4E963AE819871E12B5B67F1C330EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FBAB8E01FA63365B0DD597EB56BBC0 /* Pods-PJAnimationNew_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE2BEAC52580C916B8685F763FF4A651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PJAnimationNew;
+			target = 0DDAF6D382A9FFD9474F1F108F4EB8DD /* PJAnimationNew */;
+			targetProxy = AC27808E1C512258942680DCDD6A061A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05FC25CE2C3FC81957E969348C6E6EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDEA3708CF19F94839336D0BFE37A081 /* Pods-PJAnimationNew_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PJAnimationNew_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PJAnimationNew_Example/Pods-PJAnimationNew_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PJAnimationNew_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		256B647E93BCC36B948DDCF8E26A0BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA3BC0BEAE0B370AEB6D04185EF4EDD /* PJAnimationNew.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PJAnimationNew/PJAnimationNew-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PJAnimationNew/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PJAnimationNew/PJAnimationNew.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PJAnimationNew;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		455D6B216069CBB6E9DE06E419BB8932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2897279134E8874124CC2A137A8E43 /* Pods-PJAnimationNew_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PJAnimationNew_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PJAnimationNew_Tests/Pods-PJAnimationNew_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PJAnimationNew_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		541CFE1C2788B10D0B12B4F218046554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D85BA1B1D86881FC955B2E9B1ACB09A /* Pods-PJAnimationNew_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PJAnimationNew_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PJAnimationNew_Example/Pods-PJAnimationNew_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PJAnimationNew_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA870CBE85E871D06A9FC8D5556E49A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D8D451B514C134240DDE99BE813FBE /* Pods-PJAnimationNew_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PJAnimationNew_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PJAnimationNew_Tests/Pods-PJAnimationNew_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PJAnimationNew_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E6F8DBBA46CDD1200A99ACA5D8A5B746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA3BC0BEAE0B370AEB6D04185EF4EDD /* PJAnimationNew.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PJAnimationNew/PJAnimationNew-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PJAnimationNew/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PJAnimationNew/PJAnimationNew.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PJAnimationNew;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		029BAC6CB372A9C4CEFE2237911E3D1B /* Build configuration list for PBXNativeTarget "Pods-PJAnimationNew_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541CFE1C2788B10D0B12B4F218046554 /* Debug */,
+				05FC25CE2C3FC81957E969348C6E6EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D0301762E29C9AFE5BBF14D0A11081 /* Build configuration list for PBXNativeTarget "PJAnimationNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F8DBBA46CDD1200A99ACA5D8A5B746 /* Debug */,
+				256B647E93BCC36B948DDCF8E26A0BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		253EEFBE4D1075C6CCD2101E623DFE89 /* Build configuration list for PBXNativeTarget "Pods-PJAnimationNew_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA870CBE85E871D06A9FC8D5556E49A7 /* Debug */,
+				455D6B216069CBB6E9DE06E419BB8932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

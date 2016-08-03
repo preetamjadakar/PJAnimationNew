@@ -1,0 +1,6 @@
+framework module PJAnimationNew {
+  umbrella header "PJAnimationNew-umbrella.h"
+
+  export *
+  module * { export * }
+}

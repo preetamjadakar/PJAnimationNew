@@ -1,0 +1,22 @@
+{
+  "name": "PJAnimationNew",
+  "version": "0.1.0",
+  "summary": "A short description of PJAnimationNew.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PJAnimationNew",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "preetam": "preetamjadakar@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PJAnimationNew.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PJAnimationNew/Classes/**/*"
+}

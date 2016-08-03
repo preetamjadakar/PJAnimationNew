@@ -46,7 +46,7 @@
 		C1AC4FA7F61D4E249AF0A1F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E9215F07B61E0469983A2472 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EC4F958067AF90F36DFCFB65 /* Pods_PJAnimationNew_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJAnimationNew_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDCD75CA045521B11A702D5C /* PJAnimationNew.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PJAnimationNew.podspec; path = ../PJAnimationNew.podspec; sourceTree = "<group>"; };
+		FDCD75CA045521B11A702D5C /* PJAnimationNew.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = PJAnimationNew.podspec; path = ../PJAnimationNew.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

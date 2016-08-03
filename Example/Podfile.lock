@@ -1,0 +1,16 @@
+PODS:
+  - PJAnimationNew (0.1.0)
+
+DEPENDENCIES:
+  - PJAnimationNew (from `../`)
+
+EXTERNAL SOURCES:
+  PJAnimationNew:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PJAnimationNew: 6e486bf628b9db38ff9e211c3b6c8c93f29605c3
+
+PODFILE CHECKSUM: 5e36879e7b3800c3514b9a4d2a3eac2ace896c72
+
+COCOAPODS: 1.0.1
